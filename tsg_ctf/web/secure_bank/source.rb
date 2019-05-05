@@ -18,6 +18,7 @@ class App < Sinatra::Base
   SQL
 
   use Rack::PostBodyContentTypeParser
+  use Rack::Static, :urls => ["/index.html", "/app.js"], :root => "static"
   enable :sessions
 
   def err(code, message)
