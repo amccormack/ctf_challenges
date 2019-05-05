@@ -11,3 +11,7 @@ I came up with more secure technique to store user list. Even if a cracker could
  2. `docker run --rm -it -p 4567:4567 -v "$PWD":/usr/src/app secure_bank rackup -p 4567 -o 0.0.0.0`
 
 Then point your browser to [http://localhost:4567](http://localhost:4567)
+
+# Solution
+
+You can find a solution file in the `solution` folder, and read about it [here](https://amccormack.net/2019-05-05-secure-bank-tsg-ctf.html)
